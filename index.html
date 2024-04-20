@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Project is made to demonstrate the Payment-Gateway-Integration on a website">
+  <title>Payment-Gateway-Integration | Spark Foundation | Web Development</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/images/Bank logo.jpg" alt="payment-logo">
+      </a>
+    </div>
+
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <nav class="navbar">
+      <ul class="navlinks">
+        <li><a href="index.html" class="navlink active">Home</a></li>
+        <li><a href="about.html" class="navlink">About-Us</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="grid-container">
+      <h1>Payment Gateway Integration</h1>
+      <h3>Greetings Everyone!</h3>
+      <p>I am Reon Fernandes, well I have created this website to provide practical demonstration of Payment-Gateway-Integration using Razorpay.  
+        This is payment process is done using test mode of razorpay, it allows user to experience the secure and seamless payment process facilitated by Razorpay.</p>
+        Click on the button to make transaction (Donation).
+      </p>
+      <form>
+        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_O0VCLC2sTrkNRm"
+          async> </script>
+      </form>
+    </div>
+    <div class="payment-image">
+      <img src="assets/images/Money-Transfer.png" alt="">
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
